@@ -1,0 +1,57 @@
+.order {
+    padding: 1em;
+    border: 2px solid $border-light;
+    margin-bottom: 0.3em;
+
+    .status {
+        color: $font-color-dark;
+        font-family: $font-text;
+        font-size: 1.1em;
+        padding: 0.2em;
+    }
+
+    .status-name {
+        border-bottom: 2px solid $border-light;
+    }
+
+    .order-product:first-of-type {
+        padding-top: 1em;
+    }
+
+    .order-product:last-of-type {
+        padding-bottom: 1em;
+    }
+}
+
+.order-person {
+    font-size: 1.2em;
+}
+
+.order-packed {
+    margin: 0.5em 0;
+    display: flex;
+    justify-content: center;
+}
+
+.order-packed-link {
+    border: 1px solid $border-light;
+    border-radius: 0.2rem;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    font-family: $font-header;
+    font-size: 1.2rem;
+    color: $font-color-dark;
+}
+
+.order-packed-link:hover {
+    background-color: #ddd;
+    background-image: none;
+}
+
+.order-packed-link:active {
+    background-color: #dcdcdc;
+    background-image: none;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
+}

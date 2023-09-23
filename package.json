@@ -1,0 +1,21 @@
+{
+  "name": "lager",
+  "version": "1.0.0",
+  "description": "Min lager app.",
+  "main": "main.js",
+  "scripts": {
+    "style": "sass base.scss style.min.css  --no-source-map --style compressed"
+  },
+  "author": "Jonathan Göransson",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.60.0"
+  },
+  "dependencies": {
+    "@uploadcare/upload-client": "^6.6.0",
+    "leaflet": "^1.9.3",
+    "leaflet.markercluster": "^1.5.3",
+    "normalize.css": "^8.0.1"
+  },
+  "keywords": []
+}

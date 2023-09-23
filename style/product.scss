@@ -1,0 +1,10 @@
+.product {
+    padding: 1em;
+    border-top: 2px solid $border-light;
+
+    .status {
+        color: $status;
+        display: flex;
+        justify-content: space-between;
+    }
+}

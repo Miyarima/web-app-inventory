@@ -1,0 +1,41 @@
+.camera {
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+
+    .camera-video {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0.5em 0;
+    }
+
+    .camera-buttons {
+        display: flex;
+        justify-content: space-between;
+        gap: 0.2em;
+    }
+
+    .cam-btn {
+        border: 1px solid $border-light;
+        border-radius: 0.2rem;
+        width: 100%;
+        padding: 0.5em;
+        text-align: center;
+        text-decoration: none;
+        font-family: $font-header;
+        font-size: 0.9rem;
+        color: $font-color-dark;
+    }
+
+    .cam-btn:hover {
+        background-color: #ddd;
+        background-image: none;
+    }
+
+    .cam-btn:active {
+        background-color: #dcdcdc;
+        background-image: none;
+        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
+    }
+}

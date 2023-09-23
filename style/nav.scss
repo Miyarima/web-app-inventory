@@ -1,0 +1,21 @@
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background-color: $background-color;
+
+    a {
+        display: flex;
+        padding: 0.5em;
+        font-family: $font-links;
+        font-size: 0.9em;
+    }
+
+    .icon {
+        height: 30px;
+    }
+}
